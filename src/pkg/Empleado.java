@@ -7,7 +7,7 @@ public class Empleado {
 	float primas = 0;
 	float extras = 0;
 	
-	public float calculoNominaBruta(tipoEmpleado tipo, float ventasMes, float hora) {
+	public float calculoNominaBruta(tipoEmpleado tipo, float ventasMes, float hora) { // evaluar cada caso de valores en param.
 		
 		if (tipo == tipoEmpleado.Vendedor)
 			salarioBase = 2000;
